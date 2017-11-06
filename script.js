@@ -27,7 +27,7 @@ $(document).ready(function() {
   photo.append("<img src=" + photoThumb + ">");
 
   // Link to open article
-    var link = reddit.data.domain;
+    var link = reddit.data.permalink;
     var link2 = $("<a href='" + link + "'>Click me!</a>");
     content.append(link2);
 
