@@ -26,6 +26,11 @@ $(document).ready(function() {
   blog.append(photo);
   photo.append("<img src=" + photoThumb + ">");
 
+  // Link to open article
+    var link = reddit.data.domain;
+    var link2 = $("<a href='" + link + "'>Click me!</a>");
+    content.append(link2);
+
   $("#main").append(infoEl);
 
 
